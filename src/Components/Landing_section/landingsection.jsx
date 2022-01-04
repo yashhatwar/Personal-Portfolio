@@ -1,4 +1,4 @@
-import landingil from '../assets/vectors/landingil.svg'
+import landingil from '../../assets/vectors/landingil.svg'
 
 import './landingsection.css'
 
