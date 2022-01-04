@@ -1,6 +1,6 @@
 import "./Project_section.css"
 
-const Project_section = () => {
+const ProjectSection = () => {
     return <section>Project Section</section>
 }
 
