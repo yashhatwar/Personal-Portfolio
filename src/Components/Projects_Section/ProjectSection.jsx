@@ -1,7 +1,19 @@
-import "./Project_section.css"
+import "./ProjectSection.css"
 
 const ProjectSection = () => {
-    return <section>Project Section</section>
+    return <section>
+        <header>
+            <h2>Projects</h2>
+        </header>
+        <main>
+            <article>
+                <a href="http://github.com">
+                    <img src="" alt="" />
+                    
+                </a>
+            </article>
+        </main>
+    </section>
 }
 
-export default Project_section
+export default ProjectSection
