@@ -1,15 +1,14 @@
-import Landingsection from './Components/Landing_section/landingsection';
-import ProjectSection from './Components/Projects_Section/ProjectSection';
+import Landingsection from "./Components/Landing_section/landingsection";
+import ProjectSection from "./Components/Projects_Section/ProjectSection";
 
- import "./App.css";
-
+import "./App.css";
 
 const App = () => {
-  return(
-     <main>
-    <Landingsection />
-    <ProjectSection/>
-      </main>
+  return (
+    <main>
+      <Landingsection />
+      <ProjectSection />
+    </main>
   );
 };
 
