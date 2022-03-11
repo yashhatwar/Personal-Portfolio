@@ -28,13 +28,13 @@ const Landingsection = () => {
 
       .to(".landing-il", {
         opacity: 1,
-        duration: 0.75,
-        delay: -0.75,
+        duration: 1.0,
+        delay: -1.0,
       })
       .from(".landing-il", {
         y: 150,
-        duration: 0.75,
-        delay: -0.75,
+        duration: 1.0,
+        delay: -1.0,
       })
 
       .to(".navbar", {

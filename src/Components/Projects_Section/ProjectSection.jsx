@@ -1,7 +1,17 @@
 import { PROJECTS } from "../../content/data";
 import "./ProjectSection.css";
-
+import { useEffect } from "react";
+import gsap from "gsap";
 const ProjectSection = () => {
+
+ useEffect(() => {
+   const tl=gsap.timeline();
+
+   tl.to("#proj-heading",{opacity:1,duration:1.5});
+
+ }, [])
+ 
+  
   return (
     <section id="projects" className="projects">
       <header>
